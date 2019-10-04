@@ -1,11 +1,23 @@
 body{
-	background-color: lightblue;
+	background-image: url("myBackground.jpg");
+	background-color: #cccccc;
+	height: 500px
 	background-attachment: scroll;
-	background-position: center center;
-	background-size: auto 100px;
-
+	background-position: center;
+	background-size: cover;
+	position: relative;
 	background-repeat: no-repeat;
 
+}
+header{
+	background-image: url("myBackground.jpg");
+	background-color: #cccccc;
+	height: 500px
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
 }
 
 h1{
