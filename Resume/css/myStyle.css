@@ -1,0 +1,135 @@
+/*-------------------GLOBAL--------------------*/
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #000000;
+	color: white;
+}
+
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.head-set{
+	background: #292b2e;
+	padding-top: 10px;
+	min-height: 60px;
+}
+
+/*-------------------HEADER---------------------*/
+header{
+	background: #292b2e;
+	color: #ffffff;
+	padding-top: 20px;
+	min-height: 70px;
+	border-bottom: #686d73 4px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header a:hover{
+	color:#c4c9cf;
+	font-weight:bold;
+}
+
+
+/*-------------SHOWCASE----------------------*/
+
+#showcase{
+	min-height: 400px;
+	background: url('../img/background.JPG') no-repeat 0 -420px;
+	background-size: cover;
+	text-align: center;
+	color: #ffffff;	
+}
+#showcase h1{
+	margin-top: 100px;
+	font-size: 50px;
+	margin-bottom: 10px: 
+}
+#showcase p{
+	font-size: 20px;
+
+}
+#box{
+	padding: 30px;
+	background: rgba(0,0,0,.5);
+}
+
+#personal-inf{
+	float: left;
+	margin: 0;
+}
+.spacing{
+	float: right;
+}
+#personal-cont{
+	padding: 40px;
+	background: rgba(255,255,255, .1);
+
+}
+/*-------------EDUCATION SECTION----------------------*/
+
+.alignment{
+	display: inline;
+}
+.back-opas{
+	background: rgba(255,255,255, .05);
+}
+.educ-box{
+	padding: 30px;
+	background: rgba(141,141,141,.05);
+}
+
+/*-------------SKILLS AND QUALIFICATION----------------------*/
+
+/*-------------OBJECTIVES----------------------*/
+
+#img-resize{
+	width: 300px;
+
+}
+/*-------------FOOTER----------------------*/
+footer{
+	background: #292b2e;
+	color: #ffffff;
+	padding-top: 20px;
+	min-height: 70px;
+	border-top: #686d73 4px solid;
+}
+footer #foot-sep{
+	display: inline;
+	text-align: center; 
+}
+
+
